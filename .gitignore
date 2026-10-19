@@ -1,0 +1,58 @@
+# --- Бинарники и объектные файлы ---
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+
+# --- Папки сборки ---
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+out/
+
+# --- Visual Studio ---
+.vs/
+*.vcxproj.user
+*.suo
+*.user
+*.ncb
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+
+# --- CLion / JetBrains ---
+.idea/
+cmake-build-debug/
+cmake-build-release/
+
+# --- VS Code ---
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# --- Временные файлы компиляции и кэш ---
+*.i
+*.s
+*.d
+*.gch
+*.pch
+.cmake/
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+
+# --- Логи и дампы ---
+*.log
+*.tlog
+*.dump
