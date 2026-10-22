@@ -82,7 +82,7 @@ DWORD WINAPI ThreadFunc ( LPVOID param )
 				}
 			}
 			else {
-				// поиск по дате (основное задание варианта 5)
+				// поиск по дате
 				double min = copy[0].cost;
 				for ( int i = 1; i < (int)copy.size ( ); i++ )
 					if ( copy[i].cost < min ) min = copy[i].cost;
